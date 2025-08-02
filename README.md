@@ -5,6 +5,7 @@
 
 To develop a voice-based binary classifier that distinguishes **deceptive** speech from **truthful** speech using audio features and machine learning models.
 
+This project uses a curated dataset of 100 manually labeled audio recordings collected at Queen Mary University of London (QMUL) as part of a research study on verbal deception.
 ---
 
 ##  Pipeline Overview
@@ -63,4 +64,12 @@ X_input = df[top_features].values
 model = joblib.load("best_voting_model.pkl")
 prediction = model.predict(X_input)[0]
 print("Prediction:", prediction)
-"# Truth_verification" 
+"# Truth_verification"
+
+
+### Dataset Access
+
+Due to privacy and distribution constraints, the dataset is not included in the repository.
+
+If you're interested in using the dataset for research or academic purposes, please contact me at:
+rasul.abdullayevf@gmail.com
